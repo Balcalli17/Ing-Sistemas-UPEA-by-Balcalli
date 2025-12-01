@@ -1,0 +1,45 @@
+def es_primo(num):
+	if  num<2:
+		return False
+	contador=0
+	divisor =1
+	while(divisor <= num):
+		if (num%divisor==0):
+			contador=contador+1
+		divisor+=1
+	if(contador==2):
+		return True
+	else:
+		return False
+
+def BubbleSort(V,n):
+	for i in range(n):
+		if es_primo(V[i]):
+			for j in range (i,n):
+				if es_primo(V[j]):
+					if V[i] > V[j]:
+						V[i], V[j]= V[j], V[i]
+def llenar_vector(V,n):
+	for i in range(n):
+		V[i]=int(input(f"V[{i}]= "))
+def Mostrar_vector(V,n):
+	print("V = ",V)
+	
+def main():
+	while True:
+		try:
+			n=int(input("ingrese tamaño del vector : "))
+			if n>0:
+				break
+			else:
+				print("el numero es negativo")
+		except ValuesError:
+			print("error...!!!")
+	V=[0]*n
+	llenar_vector(V,n)
+	Mostrar_vector(V,n)
+	print("\nNuevo vector ordenado: ")
+	BubbleSort(V,n)
+	Mostrar_vector(V,n)
+	
+main()
