@@ -1,0 +1,3 @@
+13466715,emerson,24,fiebre
+14456799,juan,3,resfrio
+12323478,juanita,18,sarampion

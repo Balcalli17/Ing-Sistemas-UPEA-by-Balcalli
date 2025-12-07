@@ -1,0 +1,5 @@
+juan,12,la paz
+erick,12,la paz
+paula,14,oruro
+sofia,16,tarija
+jorge,11,santa cruz

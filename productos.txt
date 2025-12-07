@@ -1,0 +1,3 @@
+papa,10.0,9
+aceite,18.0,15
+galleta,6.0,10
