@@ -1,6 +1,2 @@
-juan
-jorge
-carl
 mamani,Julia,F
 Quispe,Gabriela,F
-Paucara,Hector,M

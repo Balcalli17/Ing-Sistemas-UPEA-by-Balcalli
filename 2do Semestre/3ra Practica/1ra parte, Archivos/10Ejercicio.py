@@ -1,6 +1,6 @@
 """
-10.
-Cree el archivo de texto (amigos.txt o amigos.csv), en el que almacene la información del nombre, edad, lugar de nacimiento, separados por comas. Por ejemplo:
+10.Cree el archivo de texto (amigos.txt o amigos.csv), en el que almacene la información del nombre, edad, 
+lugar de nacimiento, separados por comas. Por ejemplo:
 Realice las siguientes funciones:
 •Creación del archivo
 •Guardar en archivo
