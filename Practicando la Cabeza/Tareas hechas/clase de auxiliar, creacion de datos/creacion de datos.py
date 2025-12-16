@@ -38,7 +38,7 @@ def cargardatosvec():
 
 def mostrar():
     estudiantes = cargardatosvec()
-    print("\n lista de estudiante ")
+    print("\nLISTA DE ESTUDIANTES: ")
     for e in (estudiantes):
         print(e)
     print()
@@ -81,6 +81,7 @@ def menu():
         elif opcion == "4": modificar()
         elif opcion == "0":
             print("saliendo del programa...")
+            break
         else:
             print("opcion no valida...")
 menu()
