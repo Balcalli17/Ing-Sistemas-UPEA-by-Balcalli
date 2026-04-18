@@ -40,7 +40,7 @@ def main():
 				break
 			else:
 				print("el numero es negativo")
-		except ValuesError:
+		except ValueError:
 			print("error...")
 		
 	V=[0]*n

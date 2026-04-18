@@ -16,7 +16,7 @@ def main():
 				break
 			else:
 				print("el numero es negativo")
-		except ValuesError:
+		except ValueError:
 			print("error...!!!")
 	V=[random.randint(0,10) for i in range(n)]
 	Mostrar_vector(V,n)
