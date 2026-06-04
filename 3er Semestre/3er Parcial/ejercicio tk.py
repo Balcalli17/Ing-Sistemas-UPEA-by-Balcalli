@@ -4,12 +4,12 @@ class ConversorMoneda:
         self.ventana = ventana
         self.ventana.title("Conversor de Moneda")
         self.ventana.geometry("400x400")
-        self.ventana.configure(bg="#45556C")
+        self.ventana.configure(bg="#0E7B38")
 
         self.etiqueta=tk.Label(ventana,
             text="Ingrese el monto en Bolivianos (Bs.): ",
             font=("Arial",15,"bold"),
-            bg="#45556C",
+            bg="#0E7B38",
             fg="#F8FAFC")
         self.etiqueta.pack(pady=15)
 
@@ -22,14 +22,14 @@ class ConversorMoneda:
             text="Convertir a Dolares",
             command=self.procesar_conversion,
             font=("Arial",15,"bold"),
-            bg="#21BCFF",
+            bg="#034D22",
             fg="#F0FDF4")
         self.boton_convertir.pack(pady=10)
 
         self.etiqueta_resultado=tk.Label(ventana,
             text="Resultado:$ 0.00",
             font=("Arial",15,"bold"),
-            bg="#45556C",
+            bg="#0E7B38",
             fg="#F8FAFC")
         self.etiqueta_resultado.pack(pady=20)
     
