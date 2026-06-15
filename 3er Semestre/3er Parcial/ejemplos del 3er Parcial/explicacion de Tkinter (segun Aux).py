@@ -24,6 +24,7 @@ en_nombre = tkinter.Entry(ventana,
 def saludar():
     print("Hola")
 
+# command => metodo() lamda: funcion()
 btn_saludar = tkinter.Button(ventana,
                             text="Saludar",
                             command=saludar).pack()
