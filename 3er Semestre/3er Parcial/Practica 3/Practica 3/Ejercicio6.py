@@ -25,8 +25,6 @@ class Matriz:
         self.espacio=tk.Frame(self.ventana)
         self.espacio.grid(row=2,columnspan=4,pady=10)
 
-
-    
     def crear(self):
         n=int(self.n.get())
         self.m=[0]*n
@@ -51,6 +49,7 @@ class Matriz:
     def limpiar(self):
         for elemento in self.espacio.winfo_children():
             elemento.destroy()
+            
 ventana=tk.Tk()
 objeto=Matriz(ventana)
 ventana.mainloop()

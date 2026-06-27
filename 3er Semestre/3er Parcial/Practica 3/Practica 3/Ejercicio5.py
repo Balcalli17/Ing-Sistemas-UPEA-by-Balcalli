@@ -45,7 +45,6 @@ class Suma_enteros:
         self.n2.delete(0,tk.END)
         self.res.config(text="Resultado:")
 
-
 ventana=tk.Tk()
 objeto=Suma_enteros(ventana)
 ventana.mainloop()

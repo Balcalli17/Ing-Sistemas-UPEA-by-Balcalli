@@ -61,7 +61,6 @@ class Matriz:
         for elemento in self.espacio.winfo_children():
             elemento.destroy()
 
-    
 ventana=tk.Tk()
 objeto=Matriz(ventana)
 ventana.mainloop()

@@ -30,7 +30,6 @@ class Conversor:
         except ValueError:
             self.res.config(text="No es entero")
 
-
 ventana=tk.Tk()
 objeto=Conversor(ventana)
 ventana.mainloop()

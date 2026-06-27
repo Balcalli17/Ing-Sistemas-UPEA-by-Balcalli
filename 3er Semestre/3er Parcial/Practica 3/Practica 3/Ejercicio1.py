@@ -30,13 +30,6 @@ class Diseño:
         self.titulo.grid_remove()
         self.res.config(text="BOTON PRECIONADO CON EXITO")
 
-    
-    
-
-
-
-
-
 ventana=tk.Tk()
 objeto=Diseño(ventana)
 ventana.mainloop()

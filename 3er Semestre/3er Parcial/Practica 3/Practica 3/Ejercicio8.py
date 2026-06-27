@@ -22,7 +22,6 @@ class matriz_cuadrada:
         self.espacio=tk.Frame(self.ventana)
         self.espacio.grid(row=2,columnspan=3,pady=10)
     
-    
     def crear_matriz(self):
         n=int(self.n.get())
         self.matriz=[0]*n
@@ -48,9 +47,6 @@ class matriz_cuadrada:
         for elemento in self.espacio.winfo_children():
             elemento.destroy()
                 
-                
-
-
 ventana=tk.Tk()
 objeto=matriz_cuadrada(ventana)
 ventana.mainloop()
